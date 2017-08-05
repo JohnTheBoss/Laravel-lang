@@ -80,8 +80,6 @@
  * es:
 
  * et:
-    * validation : ipv4
-    * validation : ipv6
 
  * fa:
 
@@ -169,9 +167,7 @@
 
  * ja:
 
- * ka:
-    * validation : ipv4
-    * validation : ipv6
+ * ka:    
 
  * kk:
     * validation : after_or_equal : not present
