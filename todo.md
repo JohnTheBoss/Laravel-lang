@@ -16,10 +16,7 @@
     * validation : uploaded
 
  * bg:
-    * validation : file
     * validation : in_array
-    * validation : ipv4
-    * validation : ipv6
     * validation : required_unless
 
  * bn:
@@ -107,12 +104,6 @@
     * validation : uploaded
 
  * he:
-    * validation : after_or_equal
-    * validation : before_or_equal
-    * validation : file
-    * validation : ipv4
-    * validation : ipv6
-    * validation : uploaded
 
  * hi:
     * validation : after_or_equal : not present
@@ -130,7 +121,6 @@
     * validation : dimensions
     * validation : distinct
     * validation : file
-    * validation : filled
     * validation : in_array
     * validation : ipv4
     * validation : ipv6
@@ -141,6 +131,8 @@
     * validation : uploaded
 
  * hu:
+
+ * id:
 
  * is:
     * auth : failed
@@ -167,7 +159,7 @@
 
  * ja:
 
- * ka:    
+ * ka:
 
  * kk:
     * validation : after_or_equal : not present
@@ -238,11 +230,14 @@
     * validation : timezone
     * validation : uploaded
 
+ * mn:
+    * validation : ipv4 : not present
+    * validation : ipv6 : not present
+    * validation : required_without
+    * validation : required_without_all
+    * validation : same
+
  * ms:
-    * validation : after_or_equal
-    * validation : before_or_equal
-    * validation : ipv4
-    * validation : ipv6
 
  * nb:
     * validation : after_or_equal
@@ -320,7 +315,6 @@
     * validation : dimensions
     * validation : distinct
     * validation : file
-    * validation : filled
     * validation : in_array
     * validation : ipv4
     * validation : ipv6
@@ -416,13 +410,7 @@
     * validation : uploaded : not present
 
  * tr:
-    * validation : after_or_equal
-    * validation : before_or_equal
-    * validation : ipv4
-    * validation : ipv6
-    * validation : present
     * validation : required_unless
-    * validation : uploaded
 
  * uk:
 

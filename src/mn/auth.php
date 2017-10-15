@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'failed'   => 'Deze combinatie van e-mailadres en wachtwoord is niet geldig.',
-    'throttle' => 'Te veel mislukte loginpogingen. Probeer het over :seconds seconden nogmaals.',
+    'failed'   => 'Хэрэглэгчийн нэр эсвэл нууц үг буруу.',
+    'throttle' => 'Олон удаагийн буруу оролдого. :seconds секундийн дараа дахин оролдоно уу.',
 
 ];

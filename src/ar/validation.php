@@ -8,7 +8,7 @@ return [
     |
     | The following language lines contain the default error messages used by
     | the validator class. Some of these rules have multiple versions such
-    | such as the size rules. Feel free to tweak each of these messages.
+    | as the size rules. Feel free to tweak each of these messages.
     |
     */
 
@@ -119,13 +119,13 @@ return [
         'name'                  => 'الاسم',
         'username'              => 'اسم المُستخدم',
         'email'                 => 'البريد الالكتروني',
-        'first_name'            => 'الاسم',
+        'first_name'            => 'الاسم الأول',
         'last_name'             => 'اسم العائلة',
         'password'              => 'كلمة السر',
         'password_confirmation' => 'تأكيد كلمة السر',
         'city'                  => 'المدينة',
         'country'               => 'الدولة',
-        'address'               => 'العنوان',
+        'address'               => 'عنوان السكن',
         'phone'                 => 'الهاتف',
         'mobile'                => 'الجوال',
         'age'                   => 'العمر',
@@ -137,7 +137,7 @@ return [
         'hour'                  => 'ساعة',
         'minute'                => 'دقيقة',
         'second'                => 'ثانية',
-        'title'                 => 'اللقب',
+        'title'                 => 'العنوان',
         'content'               => 'المُحتوى',
         'description'           => 'الوصف',
         'excerpt'               => 'المُلخص',
